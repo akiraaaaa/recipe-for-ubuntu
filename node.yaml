@@ -1,0 +1,19 @@
+server:
+  username: username
+  password: password
+  ssh:
+    port: 2222
+mysql:
+  username: username
+  password: password
+rbenv:
+  user: root
+  global:
+    2.4.1
+  versions:
+    - 2.4.1
+  scheme: https
+rbenv-default-gems:
+  default-gems:
+    - bundler
+  install: true
